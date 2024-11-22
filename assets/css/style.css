@@ -704,6 +704,41 @@ p {
     transform: translateY(-10px);
   }
 }
+/* Hero Box */
+.hero-box {
+  background-color: rgba(0, 0, 0, 0.7); /* Colore nero semi-trasparente */
+  padding: 20px; /* Spaziatura interna */
+  border-radius: 10px; /* Angoli arrotondati */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Effetto ombra */
+  color: white; /* Testo in bianco */
+}
+
+/* Titolo Hero Section */
+.hero-title {
+  font-size: 2.5rem; /* Dimensione leggermente più piccola */
+  font-weight: bold; /* Grassetto */
+  margin-bottom: 10px; /* Spaziatura tra righe */
+  text-transform: uppercase; /* Maiuscolo */
+}
+
+/* Descrizione Hero Section */
+.hero-description {
+  font-size: 1rem; /* Dimensione ridotta */
+  font-weight: 400; /* Normale */
+  line-height: 1.6; /* Migliore leggibilità */
+  margin-bottom: 10px; /* Spaziatura tra paragrafi */
+  color: rgba(255, 255, 255, 0.9); /* Testo bianco leggermente trasparente */
+}
+
+/* Evidenziazione finale */
+.hero-highlight {
+  font-size: 1.2rem; /* Un po' più grande della descrizione */
+  font-weight: bold; /* Grassetto */
+  color: white; /* Testo completamente bianco */
+  text-align: center; /* Centrato */
+  margin-top: 20px; /* Spazio sopra */
+}
+
 
 /*--------------------------------------------------------------
 # Sections General
@@ -2177,4 +2212,120 @@ padding: unset;
 
 #tokenomics .section-title h2 {
   color: #ffffff;
+}
+
+/* Stile del titolo della sezione Blockchain */
+.blockchain-title {
+  margin-bottom: 20px; /* Spazio sotto il titolo */
+  font-size: 28px; /* Dimensione del titolo */
+  text-transform: uppercase; /* Maiuscolo per maggiore enfasi */
+}
+
+/* Stile del testo descrittivo */
+.blockchain-text {
+  color: white; /* Colore del testo */
+  font-size: 18px; /* Testo più grande */
+  line-height: 1.8; /* Migliora leggibilità */
+  margin-bottom: 20px; /* Spazio tra i paragrafi */
+}
+
+/* Contenitore dell'immagine */
+.blockchain-image-container {
+  border: 2px solid #007bff; /* Bordo blu */
+  border-radius: 10px; /* Angoli arrotondati */
+  padding: 10px; /* Spazio interno */
+  display: flex; /* Per centrare l'immagine */
+  justify-content: center; /* Centra orizzontalmente */
+  align-items: center; /* Centra verticalmente */
+  background-color: #001a25; /* Colore di sfondo del box immagine */
+}
+
+/* Immagine */
+.blockchain-image {
+  max-width: 50%; /* L'immagine si adatta al contenitore */
+  height: auto; /* Mantiene proporzioni */
+  border-radius: 10px; /* Angoli arrotondati per l'immagine */
+}
+
+
+/* Stile del titolo della sezione Rebirth */
+.rebirth-title {
+  margin-bottom: 20px; /* Spazio sotto il titolo */
+  font-size: 28px; /* Dimensione del titolo */
+  text-transform: uppercase; /* Maiuscolo per maggiore enfasi */
+}
+
+/* Stile del testo descrittivo */
+.rebirth-text {
+  color: white; /* Colore del testo */
+  font-size: 18px; /* Testo più grande */
+  line-height: 1.8; /* Migliora leggibilità */
+  margin-bottom: 20px; /* Spazio tra i paragrafi */
+}
+
+/* Contenitore dell'immagine */
+.rebirth-image-container {
+  border: 2px solid #28a745; /* Bordo verde */
+  border-radius: 10px; /* Angoli arrotondati */
+  padding: 10px; /* Spazio interno */
+  display: flex; /* Per centrare l'immagine */
+  justify-content: center; /* Centra orizzontalmente */
+  align-items: center; /* Centra verticalmente */
+  background-color: #00302f; /* Colore di sfondo del box immagine */
+}
+
+/* Immagine */
+.rebirth-image {
+  max-width: 50%; /* L'immagine si adatta al contenitore */
+  height: auto; /* Mantiene proporzioni */
+  border-radius: 50px; /* Angoli arrotondati per l'immagine */
+}
+/* Stile del titolo della sezione Token Description */
+.token-description-title {
+  margin-bottom: 20px; /* Spazio sotto il titolo */
+  font-size: 28px; /* Dimensione del titolo */
+  text-transform: uppercase; /* Maiuscolo per maggiore enfasi */
+}
+
+/* Stile del testo descrittivo */
+.token-description-text {
+  color: white; /* Colore del testo */
+  font-size: 18px; /* Testo più grande */
+  line-height: 1.8; /* Migliora leggibilità */
+  margin-bottom: 20px; /* Spazio tra i paragrafi */
+}
+
+/* Stile della lista */
+.token-description-list {
+  color: white;
+  font-size: 18px; /* Testo più grande */
+  line-height: 1.8; /* Migliora leggibilità */
+  margin-bottom: 40px;
+  padding-left: 20px; /* Spazio per lista indentata */
+}
+
+/* Contenitore dell'immagine */
+.token-description-image-container {
+  border: 2px solid #ffc107; /* Bordo giallo */
+  border-radius: 10px; /* Angoli arrotondati */
+  padding: 10px; /* Spazio interno */
+  display: flex; /* Per centrare l'immagine */
+  justify-content: center; /* Centra orizzontalmente */
+  align-items: center; /* Centra verticalmente */
+  background-color: #1a1a1a; /* Colore di sfondo del box immagine */
+}
+
+/* Immagine */
+.token-description-image {
+  max-width: 50%; /* L'immagine si adatta al contenitore */
+  height: auto; /* Mantiene proporzioni */
+  border-radius: 10px; /* Angoli arrotondati per l'immagine */
+}
+
+/* Testo finale */
+.token-description-footer {
+  color: white; /* Colore del testo */
+  font-size: 16px; /* Dimensione leggermente minore */
+  margin-top: 20px; /* Spazio sopra */
+  font-style: italic; /* Stile corsivo */
 }
